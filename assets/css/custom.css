@@ -1,9 +1,22 @@
+/* ==== HEADER ==== */
+
 body {
   margin-top: 55px;
   font-family: proxima-nova, Raleway, Helvetica sans-serif;
   font-size: 16px;
   background: url("../img/tile.jpg") top left repeat;
 }
+
+.bg-dark {
+  background-color: #132e3f !important;
+
+}
+
+.logo {
+  height: 20px;
+  width: auto;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
@@ -25,6 +38,16 @@ h3 {
 
 h4 {
   font-size: 18px;
+}
+
+strong {
+    font-weight: 800;
+}
+
+button, input, .btn, a.btn {
+   -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: white;
 }
 
 #hero {
@@ -57,7 +80,7 @@ h4 {
   display: inline-block;
   margin: 0 2% 0 0;
   width: 30%;
-  background: #132e3f;
+  background: #1b435c;
   padding: 10px 20px 30px;
   position: relative;
   vertical-align: top;
@@ -68,7 +91,7 @@ h4 {
 }
 
 #price-timeline .price span {
-  background: #f2ecd0;
+  background: white;
   color: black;
   display: block;
   height: 70px;
@@ -105,11 +128,22 @@ h4 {
   border-color: #B36554; 
 }
 
-.bg-dark {
-  background-color: #132e3f !important;
+/* ==== LAYOUT ==== */
+
+#optin {
+  background: #1b435c;
+  padding: 20px 0;
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-size: 1.2em;
 }
 
-.logo {
-  height: 20px;
-  width: auto;
+#optin p {
+  margin: 7px 0 0 0 
+}
+
+.btn-success {
+  background-color: #16a689;
+  border-color: #128a72;
 }
