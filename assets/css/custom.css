@@ -130,6 +130,14 @@ button, input, .btn, a.btn {
 
 /* ==== LAYOUT ==== */
 
+section {
+  padding: 80px 0; 
+}
+
+.section-header {
+  text-align: center;
+}
+
 #optin {
   background: #1b435c;
   padding: 20px 0;
