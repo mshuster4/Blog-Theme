@@ -1,4 +1,4 @@
-/* ==== HEADER ==== */
+/* ==== GLOBAL ==== */
 
 body {
   margin-top: 55px;
@@ -49,6 +49,48 @@ button, input, .btn, a.btn {
     text-rendering: optimizeLegibility;
     color: white;
 }
+
+img { 
+  max-width: 100%;
+}
+
+.modal-content {
+  background: url('../img/tile.jpg') top left repeat; 
+}
+
+.badge.social {
+  background: #ccc;
+  font-size: 24px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 42.5px;
+  margin: 0 5px 20px 0;
+  padding: 0;
+  border-radius: 50px;
+  color: white; 
+}
+
+.badge.social.twitter:hover, 
+.badge.social.facebook:hover, 
+.badge.social.instagram:hover  {
+  background: #132e3f;
+}
+
+blockquote {
+  padding: 0;
+  border: none;
+  font-style: initial;
+  text-align: left
+}
+
+blockquote cite {
+  display: block;
+  color: #777;
+  margin: 15px 0 0 0;
+}
+
+/* === HERO === */
 
 #hero {
     background: url(../img/hero-bg.png) no-repeat fixed;
@@ -193,7 +235,49 @@ section h3 {
 
 #bio {
   background: white url('../img/bio-image.png') 90% no-repeat; 
-  background-size: contain; 
+  background-size: contain;
+}
+
+#bio h2 {
+  margin: 0 0 20px;
+}
+
+#bio .num {
+  display: table;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  line-height: 24px; 
+  height: 140px;
+  width: 140px;
+  text-align: center;
+  background: #cc6566;
+  border-radius: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+#bio .num .num-content {
+  display: table-cell;
+  vertical-align: middle; 
+}
+
+#bio .num span {
+  display: block;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#kudos {
+  text-align: center;
+}
+
+.testimonial {
+  margin-bottom: 60px;
+}
+
+.testimonial img {
+  border-radius: 100%;
 }
 
 /* === CUSTOM ICON SPRITES === */
