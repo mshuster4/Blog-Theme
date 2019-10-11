@@ -170,6 +170,26 @@ blockquote cite {
   border-color: #B36554; 
 }
 
+.btn-success {
+  background-color: #132e3f;
+  border-color: #102736;
+}
+
+.btn-success:hover {
+  background: #2B718F;
+  border-color: #2B718F;
+}
+
+button.btn-success:focus,
+button.btn-success:active,
+button.btn-danger:focus,
+button.btn-danger:active {
+  outline: 0 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
 /* ==== LAYOUT ==== */
 
 section {
@@ -206,11 +226,6 @@ section h3 {
   margin: 7px 0 0 0 
 }
 
-.btn-success {
-  background-color: #132e3f;
-  border-color: #102736;
-}
-
 
 #who-benefits {
   background-color: white;
@@ -227,7 +242,7 @@ section h3 {
 }
 
 #featurette {
-  background: url('../img/stuff-bg.jpg') 50% 60% fixed;
+  background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
   background-size: cover; 
   text-align: center;
   color: white;
@@ -278,6 +293,50 @@ section h3 {
 
 .testimonial img {
   border-radius: 100%;
+}
+
+#signup {
+  text-align: center;
+  background: url("../img/hipster-stuff.png") center center repeat fixed;
+  background-size: cover; 
+  color: white;
+  padding: 140px 0;
+}
+
+#signup h2 {
+  font-weight: normal; 
+}
+
+
+#signup h2 strong {
+  border-bottom: solid 2px #cc6566;
+}
+
+#signup .btn {
+  font-size: 24px;
+}
+
+footer {
+  background: #132e3f;
+  color: white;
+  padding: 20px 10px;
+  font-size: 12px; 
+}
+
+footer p {
+  margin: 0;
+}
+
+footer a:link, footer a:visited {
+  color: white; 
+}
+
+footer a:hover {
+  color: #cc6566;
+}
+
+footer a.nav-link {
+  padding: 0 15px;
 }
 
 /* === CUSTOM ICON SPRITES === */
